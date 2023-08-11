@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #B695C0;
+    background-image: url("fondo.gif");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  .invitation {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ocultamos el desbordamiento del GIF de fondo */
+    position: relative;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  
+  .nombre {
+    text-align: center;
+    font-size: 50px;
+    color: #bb8b06; /* Color blanco para el texto */
+  }
+  .imagen{
+    text-align: center;
+  }
+  
+  .content {
+    margin-bottom: 30px;
+  }
+  
+  .content p {
+    text-align: center;
+    margin: 15px;
+    font-style: oblique;
+    font-size: 150%;
+  }
+  
+  
+  .footer {
+    background-color: #bb8b06;
+    text-align: center;
+    font-style: oblique;
+    font-size: 200%;
+  }
+  
+  .footer p {
+    margin: 5px;
+  }
+  
+  .mis p{
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    font-size: 80px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 150px;
+    color: white;
+    font-style: oblique;
+  }
+  .XV p{
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    font-size: 80px;
+    position: absolute;
+    margin-left: 640px;
+    margin-top: 150px;
+    color: white;
+    font-style: oblique;
+  }
+  .dia{
+    font-style: oblique;
+    text-align: center;
+    font-size: 30px;
+  }
