@@ -65,7 +65,7 @@ body {
     width: 100%;
     font-size: 80px;
     position: absolute;
-    margin-left: 200px;
+    margin-left: 0px;
     margin-top: 150px;
     color: white;
     font-style: oblique;
@@ -76,7 +76,7 @@ body {
     width: 100%;
     font-size: 80px;
     position: absolute;
-    margin-left: 640px;
+    margin-left: 400px;
     margin-top: 150px;
     color: white;
     font-style: oblique;
