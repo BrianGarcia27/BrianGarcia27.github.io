@@ -46,6 +46,13 @@ body {
     font-style: oblique;
     font-size: 150%;
   }
+
+  .content1 p {
+    text-align: center;
+    margin: 20px;
+    font-style: oblique;
+    font-size: 150%;
+  }
   
   
   .footer {
