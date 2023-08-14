@@ -30,7 +30,7 @@ body {
   .nombre {
     text-align: center;
     font-size: 50px;
-    color: #bb8b06; /* Color blanco para el texto */
+    color: #e30052; /* Color blanco para el texto */
   }
   .imagen{
     text-align: center;
@@ -42,7 +42,7 @@ body {
   
   .content p {
     text-align: center;
-    margin: 15px;
+    margin: 50px;
     font-style: oblique;
     font-size: 150%;
   }
