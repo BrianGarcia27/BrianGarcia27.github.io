@@ -7,9 +7,6 @@
     <title>MIS XV</title>
 </head>
 <body>
-    <audio autoplay="autoplay" loop="loop">
-        <source src="Lana Del Rey - Summertime Sadness.mp3" type="audio/mpeg">
-    </audio>
     <div class="invitation">
         
         <div class="header">
@@ -72,4 +69,19 @@
     <div class="imagen"><img src="Foto4.jpg" width="200" height="350"></div>
     </div>
 </body>
+<script>
+  const playSound = function() {
+    let element = document.createElement('div');
+    element.setAttribute('style', 'display: none');
+    element.innerHTML = `
+      <audio autoplay loop>
+        <source src="Lana Del Rey - Summertime Sadness.mp3" type="audio/mpeg">
+      </audio>
+    `;
+    document.body.appendChild(element);
+    document.removeEventListener('click', playSound);
+}
+
+document.addEventListener('click', playSound);
+</script>
 </html>
