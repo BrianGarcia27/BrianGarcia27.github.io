@@ -73,8 +73,18 @@
     </div>
 </body>
 <script>
-    const audio = new Audio("Lana Del Rey - Summertime Sadness.mp3");
-    audio.preload="auto";
-    audio.play();
+    const playSound = function() {
+    let element = document.createElement('div');
+    element.setAttribute('style', 'display: none');
+    element.innerHTML = `
+      <audio autoplay loop>
+        <source src="Lana Del Rey - Summertime Sadness.mp3" type="audio/mpeg">
+      </audio>
+    `;
+    document.body.appendChild(element);
+    document.removeEventListener('click', playSound);
+}
+
+document.addEventListener('click', playSound);
 </script>
 </html>
