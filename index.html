@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo.css">.
     <title>MIS XV</title>
 </head>
 <body>
+    <audio autoplay>
+        <source src="Lana Del Rey - Summertime Sadness.mp3" type="audio/mpeg">
+      </audio>
     <div class="invitation">
         
         <div class="header">
@@ -70,18 +73,10 @@
     </div>
 </body>
 <script>
-  const playSound = function() {
-    let element = document.createElement('div');
-    element.setAttribute('style', 'display: none');
-    element.innerHTML = `
-      <audio autoplay loop>
-        <source src="Lana Del Rey - Summertime Sadness.mp3" type="audio/mpeg">
-      </audio>
-    `;
-    document.body.appendChild(element);
-    document.removeEventListener('click', playSound);
-}
-
-document.addEventListener('click', playSound);
+    const audio = document.createElement("audio");
+audio.preload = "auto";
+audio.src = "Lana Del Rey - Summertime Sadness.mp3";
+audio.play();
+document.body.appendChild(audio);
 </script>
 </html>
